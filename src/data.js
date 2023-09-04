@@ -17,108 +17,108 @@ import boat from "./gallery_images/boat.jpg"
 const galleryData = [
     {
         id: 1,
-        title: "Biscuits",
-        location: "Japan",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: biscuits
+        title: "biscuits",
+        href: "https://www.flickr.com/photos/nigelseah24/53163609610/in/album-72177720305416783/",
+        imgSrc: "https://live.staticflickr.com/65535/53163609610_6f34311b4a_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 2,
-        title: "Matcha",
-        location: "KK",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: matcha
+        title: "matcha",
+        href: "https://www.flickr.com/photos/nigelseah24/53162589512/in/album-72177720305416783/",
+        imgSrc: "https://live.staticflickr.com/65535/53162589512_3fafb41335_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 3,
-        title: "Coffee",
-        location: "KK",
-        description: "The N Seoul Tower, officially the YTN Seoul Tower and commonly known as Namsan Tower or Seoul Tower, is a communication and observation tower located on Nam Mountain in central Seoul, South Korea. The 236-meter-tall tower marks the second highest point in Seoul.",
-        imageUrl: coffee
+        title: "coffee",
+        href: "https://www.flickr.com/photos/nigelseah24/53163666273/in/album-72177720305416783/",
+        imgSrc: "https://live.staticflickr.com/65535/53163666273_8fe6e7e91f_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 4,
-        title: "Phuket Sunset",
-        location: "Phuket",
-        description: "The N Seoul Tower, officially the YTN Seoul Tower and commonly known as Namsan Tower or Seoul Tower, is a communication and observation tower located on Nam Mountain in central Seoul, South Korea. The 236-meter-tall tower marks the second highest point in Seoul.",
-        imageUrl: phuketsunset
+        title: "phuketsunset",
+        href: "https://www.flickr.com/photos/nigelseah24/53138049794/in/album-72177720310611993/",
+        imgSrc: "https://live.staticflickr.com/65535/53138049794_b67ce72f6c_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 5,
-        title: "Boats",
-        location: "KK",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: boats
+        title: "boats",
+        href: "https://www.flickr.com/photos/nigelseah24/53163202296/in/photostream/",
+        imgSrc: "https://live.staticflickr.com/65535/53163202296_cc74931ca2_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 6,
-        title: "Egg Tart",
-        location: "Tuaran",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: eggtart
+        title: "eggtart",
+        href: "https://www.flickr.com/photos/nigelseah24/53162589457/in/album-72177720305416783/",
+        imgSrc: "https://live.staticflickr.com/65535/53162589457_6806cf78d3_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 7,
-        title: "Phuket Shoes",
-        location: "Phuket",
-        description: "The N Seoul Tower, officially the YTN Seoul Tower and commonly known as Namsan Tower or Seoul Tower, is a communication and observation tower located on Nam Mountain in central Seoul, South Korea. The 236-meter-tall tower marks the second highest point in Seoul.",
-        imageUrl: phuketshoes
+        title: "phuketshoes",
+        href: "https://www.flickr.com/photos/nigelseah24/53138261845/in/album-72177720310611993/",
+        imgSrc: "https://live.staticflickr.com/65535/53138261845_7297179a1d_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 8,
-        title: "Jaimie",
-        location: "KK",
-        description: "Big Ben is the nickname for the Great Bell of the Great Clock of Westminster, at the north end of the Palace of Westminster in London, England, and the name is frequently extended to refer also to the clock and the clock tower.",
-        imageUrl: cheesecake
+        title: "DSC05455",
+        href: "https://www.flickr.com/photos/nigelseah24/53117905764/in/album-72177720305416783/",
+        imgSrc: "https://live.staticflickr.com/65535/53117905764_ea665ece0d_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 9,
-        title: "Daddy KK",
-        location: "KK",
-        description: "Big Ben is the nickname for the Great Bell of the Great Clock of Westminster, at the north end of the Palace of Westminster in London, England, and the name is frequently extended to refer also to the clock and the clock tower.",
-        imageUrl: daddyKK
+        title: "daddyKK",
+        href: "https://www.flickr.com/photos/nigelseah24/53163633535/in/photostream/",
+        imgSrc: "https://live.staticflickr.com/65535/53163633535_801dc0aa91_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 10,
-        title: "Phuket Isaac Arm",
-        location: "Phuket",
-        description: "The N Seoul Tower, officially the YTN Seoul Tower and commonly known as Namsan Tower or Seoul Tower, is a communication and observation tower located on Nam Mountain in central Seoul, South Korea. The 236-meter-tall tower marks the second highest point in Seoul.",
-        imageUrl: phuketisaacarm
+        title: "phuketisaacarm",
+        href: "https://www.flickr.com/photos/nigelseah24/53138261185/in/album-72177720310611993/",
+        imgSrc: "https://live.staticflickr.com/65535/53138261185_6ca12368b2_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 11,
-        title: "Egg Tarts",
-        location: "Tuaran",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: eggtarts
+        title: "eggtarts",
+        href: "https://www.flickr.com/photos/nigelseah24/53163382369/in/album-72177720305416783/",
+        imgSrc: "https://live.staticflickr.com/65535/53163382369_caacc57d4a_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 12,
-        title: "Phuket Nat",
-        location: "Phuket",
-        description: "The N Seoul Tower, officially the YTN Seoul Tower and commonly known as Namsan Tower or Seoul Tower, is a communication and observation tower located on Nam Mountain in central Seoul, South Korea. The 236-meter-tall tower marks the second highest point in Seoul.",
-        imageUrl: phuketnat
+        title: "phuketnat",
+        href: "https://www.flickr.com/photos/nigelseah24/53138049854/in/album-72177720310611993/",
+        imgSrc: "https://live.staticflickr.com/65535/53138049854_9a911bfb40_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 13,
-        title: "Koko",
-        location: "England",
-        description: "Big Ben is the nickname for the Great Bell of the Great Clock of Westminster, at the north end of the Palace of Westminster in London, England, and the name is frequently extended to refer also to the clock and the clock tower.",
-        imageUrl: koko
+        title: "koko",
+        href: "https://www.flickr.com/photos/nigelseah24/53163694428/in/dateposted/",
+        imgSrc: "https://live.staticflickr.com/65535/53163694428_8bbdc94bb6_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 14,
-        title: "Phuket Coconut Tree",
-        location: "Phuket",
-        description: "Big Ben is the nickname for the Great Bell of the Great Clock of Westminster, at the north end of the Palace of Westminster in London, England, and the name is frequently extended to refer also to the clock and the clock tower.",
-        imageUrl: phuketcoconuttree
+        title: "DSC05793",
+        href: "https://www.flickr.com/photos/nigelseah24/53138325433/in/album-72177720310611993/",
+        imgSrc: "https://live.staticflickr.com/65535/53138325433_48daebd39a_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     },
     {
         id: 15,
-        title: "Boat",
-        location: "KK",
-        description: "Big Ben is the nickname for the Great Bell of the Great Clock of Westminster, at the north end of the Palace of Westminster in London, England, and the name is frequently extended to refer also to the clock and the clock tower.",
-        imageUrl: boat
+        title: "boat",
+        href: "https://www.flickr.com/photos/nigelseah24/53163633495/in/photostream/",
+        imgSrc: "https://live.staticflickr.com/65535/53163633495_6afbf75e84_o.jpg",
+        scriptSrc: "//embedr.flickr.com/assets/client-code.js"
     }
 ]
 
