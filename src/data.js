@@ -1,19 +1,3 @@
-import biscuits from "./gallery_images/biscuits.jpg"
-import matcha from "./gallery_images/matcha.jpg"
-import coffee from "./gallery_images/coffee.jpg"
-import phuketsunset from "./gallery_images/phuketsunset.jpg"
-import boats from "./gallery_images/boats.jpg"
-import eggtart from "./gallery_images/eggtart.jpg"
-import phuketshoes from "./gallery_images/phuketshoes.jpg"
-import cheesecake from "./gallery_images/cheesecake.jpg"
-import daddyKK from "./gallery_images/daddyKK.jpg"
-import phuketisaacarm from "./gallery_images/phuketisaacarm.jpg"
-import eggtarts from "./gallery_images/eggtarts.jpg"
-import phuketnat from "./gallery_images/phuketnat.jpg"
-import koko from "./gallery_images/koko.jpg"
-import phuketcoconuttree from "./gallery_images/phuketcoconuttree.jpg"
-import boat from "./gallery_images/boat.jpg"
-
 const galleryData = [
     {
         id: 1,
