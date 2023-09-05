@@ -98,7 +98,7 @@ font-weight: bold;
 .about-me {
   font-family: 'Qwitcher Grypen', cursive;    ;
   font-size: 27px;
-  margin: 0 70px 0 70px;
+  margin: 0 50px 0 50px;
   background-image: url('aboutmephoto.jpg');
   /* You can also control how the background image behaves and is displayed */
   background-size: cover; /* Adjust as needed */
