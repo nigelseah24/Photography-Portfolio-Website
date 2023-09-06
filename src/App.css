@@ -117,5 +117,9 @@ font-weight: bold;
   width: 60px;
 }
 
+.social-link-image:hover {
+  scale: 0.9;
+}
+
 
 
