@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import Gallery from "./components/Gallery"
 import AboutMe from "./components/AboutMe"
 import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 import data from "./data"
 import './App.css';
 
@@ -34,15 +35,24 @@ function App() {
 
     const [showGallery, setShowGallery] = useState(true);
     const [showAbout, setShowAbout] = useState(false);
+    const [showContact, setShowContact] = useState(false);
 
     const toggleShowGallery = () => {
         setShowAbout(false);
         setShowGallery(true);
+        setShowContact(false);
     };
 
     const toggleShowAbout = () => {
         setShowGallery(false);
         setShowAbout(true);
+        setShowContact(false);
+    };
+
+    const toggleShowContact = () => {
+        setShowGallery(false);
+        setShowAbout(false);
+        setShowContact(true);
     };
 
     return (
@@ -51,6 +61,7 @@ function App() {
             toggleName={toggleShowGallery}
             toggleShowGallery={toggleShowGallery}
             toggleShowAbout={toggleShowAbout}
+            toggleShowContact={toggleShowContact}
             />
             <div className="container">
                 {showGallery && (
@@ -59,6 +70,7 @@ function App() {
                     </div>
                 )}
                 {showAbout && <AboutMe />}
+                {showContact && <Contact />}
             </div>
             <Footer />
         </main>
